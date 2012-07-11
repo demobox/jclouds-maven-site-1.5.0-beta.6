@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-11T05:57:52.098">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/jenkins/src/main/java/org/jclouds/jenkins/v1/domain/JobDetails.java">
+<violation beginline="58" endline="60" begincolumn="11" endcolumn="4" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.jenkins.v1.domain" class="JobDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/jenkins/src/main/java/org/jclouds/jenkins/v1/features/JobAsyncClient.java">
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.core.Context'
+</violation>
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.core.UriInfo'
+</violation>
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="54" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.binders.BindMapToMatrixParams'
+</violation>
+<violation beginline="42" endline="42" begincolumn="1" endcolumn="55" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.binders.BindMapToStringPayload'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/jenkins/src/main/java/org/jclouds/jenkins/v1/features/JobClient.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.List'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="32" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.jenkins.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.core.UriInfo'
+</violation>
+</file>
+</pmd>
