@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-11T02:05:12.882">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/apis/filesystem/src/main/java/org/jclouds/filesystem/FilesystemAsyncBlobStore.java">
+<violation beginline="19" endline="645" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="45" endline="45" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Collection'
+</violation>
+<violation beginline="47" endline="47" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.List'
+</violation>
+<violation beginline="52" endline="52" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.TreeSet'
+</violation>
+<violation beginline="67" endline="67" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.domain.BlobBuilder'
+</violation>
+<violation beginline="96" endline="96" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.http.options.HttpRequestOptions'
+</violation>
+<violation beginline="102" endline="102" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.filesystem" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.javax.annotation.Nullable'
+</violation>
+<violation beginline="516" endline="517" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem" class="FilesystemAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="520" endline="521" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem" class="FilesystemAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/apis/filesystem/src/main/java/org/jclouds/filesystem/strategy/internal/FilesystemStorageStrategyImpl.java">
+<violation beginline="353" endline="355" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="normalize" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="377" endline="378" begincolumn="10" endcolumn="27" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="removeFileSeparatorFromBorders" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="421" endline="423" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl" method="openFolder" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="454" endline="456" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.filesystem.strategy.internal" class="FilesystemStorageStrategyImpl$FileIterator" method="remove" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
