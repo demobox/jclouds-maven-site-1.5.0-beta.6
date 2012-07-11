@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-11T06:43:12.053">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/nodepool/src/main/java/org/jclouds/nodepool/Backend.java">
+<violation beginline="19" endline="42" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/nodepool/src/main/java/org/jclouds/nodepool/NodePoolApiMetadata.java">
+<violation beginline="19" endline="96" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/labs/nodepool/src/main/java/org/jclouds/nodepool/internal/EagerNodePoolComputeServiceAdapter.java">
+<violation beginline="20" endline="141" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.nodepool.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
