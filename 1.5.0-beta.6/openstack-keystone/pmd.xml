@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-11T02:35:43.886">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.6/apis/openstack-keystone/src/main/java/org/jclouds/openstack/keystone/v2_0/domain/Endpoint.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="64" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.keystone.v2_0.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkNotNull'
+</violation>
+</file>
+</pmd>
